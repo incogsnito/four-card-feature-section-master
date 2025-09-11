@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+@font-face{
+  font-family: "Poppins";
+  src: url("./Poppins/Poppins-Light.ttf") format("truetype");
+  src: url("./Poppins/Poppins-ExtraLight.ttf") format("truetype");
+  src: url("./Poppins/Poppins-SemiBold.ttf") format("truetype");
+}
+
 body{
   padding: 2em 0em;
+  font-family: "Poppins";
 }
